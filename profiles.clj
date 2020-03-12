@@ -7,4 +7,6 @@
                   [lein-ancient "0.6.15"]
                   [lein-try "0.4.3"]
                   [lein-asciidoctor "0.1.12"]]
+        :asciidoctor {:sources "doc/*.ascii"
+                      :format :html5}
         :middleware [cider-nrepl.plugin/middleware}}
