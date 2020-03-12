@@ -5,5 +5,6 @@
                   [lein-exec "0.3.1"]
                   [cider/cider-nrepl "0.24.0"]
                   [lein-ancient "0.6.15"]
-                  [lein-try "0.4.3"]]
+                  [lein-try "0.4.3"]
+                  [lein-asciidoctor "0.1.12"]]
         :middleware [cider-nrepl.plugin/middleware}}
