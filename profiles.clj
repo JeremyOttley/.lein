@@ -8,5 +8,11 @@
                   [lein-try "0.4.3"]
                   [lein-asciidoctor "0.1.12"]]
         :asciidoctor {:sources "doc/*.ascii"
-                      :format :html5}
+              :format :html5
+              :to-dir "out/"
+              :header false
+              :toc :left
+              :toc-title "Contents"
+              :doctype :article
+              :source-highlight true}
         :middleware [cider-nrepl.plugin/middleware}}
