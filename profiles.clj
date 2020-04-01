@@ -16,4 +16,4 @@
               :toc-title "Contents"
               :doctype :article
               :source-highlight true}
-        :middleware [cider-nrepl.plugin/middleware}}
+        :middleware [cider-nrepl.plugin/middleware]}}
