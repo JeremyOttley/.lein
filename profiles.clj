@@ -7,7 +7,8 @@
                   [lein-ancient "0.6.15"]
                   [lein-try "0.4.3"]
                   [lein-asciidoctor "0.1.12"]
-                  [lein-kibit "0.1.8"]]
+                  [lein-kibit "0.1.8"]
+                  [venantius/ultra "0.6.0"]]
         :asciidoctor {:sources "doc/*.ascii"
               :format :html5
               :to-dir "out/"
