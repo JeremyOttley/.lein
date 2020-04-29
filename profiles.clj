@@ -1,4 +1,5 @@
-{:user {:dependencies [[org.clojure/tools.namespace "0.2.3"]
+{:user {:aliases {"lint" ["do" "kibit" "--replace" "--interactive," "eastwood"]}
+        :dependencies [[org.clojure/tools.namespace "0.2.3"]
                        [clj-http "3.10.0"]
                        [cheshire "5.10.0"]]
         :injections [(require '[clojure.tools.namespace.repl :refer [refresh refresh-all clear]]
